@@ -1,0 +1,7 @@
+development_config:
+  llm_model: 'gpt-4o-mini'
+  # Las API keys deben cargarse desde variables de entorno (e.g., OPENAI_API_KEY) o un sistema de gestión de secretos seguro.
+  # No deben estar hardcodeadas en archivos de configuración.
+  agent_params:
+    verbose: true
+    debug: true
