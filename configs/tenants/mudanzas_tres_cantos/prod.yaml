@@ -1,0 +1,7 @@
+production_config:
+  llm_model: 'gemini-1.5-pro-latest'
+  api_keys:
+    google_api_key: '${GOOGLE_API_KEY}'
+  agent_params:
+    verbose: false
+    debug: false
